@@ -16,5 +16,62 @@
   
   
   
+  <entry>
+    <title>自定义Pages</title>
+    <link href="/2022/10/26/%E8%87%AA%E5%AE%9A%E4%B9%89Pages/"/>
+    <url>/2022/10/26/%E8%87%AA%E5%AE%9A%E4%B9%89Pages/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/383582472">Mkdocs 配置和使用 - 知乎 (zhihu.com)</a></p><p><a href="https://sinoui.github.io/sinoui-guide/">sinoui开发指南 · 基于React和sinoui的应用开发指南</a></p><p><a href="https://blog.csdn.net/dangfulin/article/details/121502419">(15条消息) Git &amp; GitHub ——3：Git 分支及其操作_dangfulin的博客-CSDN博客</a></p><p>使用mkdocs中的gh-deploy以及hexo g -d后CNAME消失</p><blockquote><p>应该把CNAME文件放入resource文件夹，即md博文所在文件夹</p></blockquote>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>OhMyPlugin</title>
+    <link href="/2022/10/26/OhMyPlugin/"/>
+    <url>/2022/10/26/OhMyPlugin/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Github插件"><a href="#Github插件" class="headerlink" title="Github插件"></a>Github插件</h2><p><strong>阅读代码：</strong></p><ul><li><p>SourceGraph</p></li><li><p>tree code </p></li><li><p>使用github1s.无需插件直接跳转</p></li></ul><p><strong>下载：</strong></p><p>gitzip</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>github</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博客配置</title>
+    <link href="/2022/10/26/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/"/>
+    <url>/2022/10/26/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="Hexo-Admin插件"><a href="#Hexo-Admin插件" class="headerlink" title="Hexo-Admin插件"></a>Hexo-Admin插件</h3><p><a href="https://blog.csdn.net/qq_46106285/article/details/106498979">https://blog.csdn.net/qq_46106285/article/details/106498979</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install --save hexo-admin -y<br><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;hexo clean &amp;&amp; hexo g -d&quot;</span>&gt;hexo-deploy.bat<br><span class="hljs-built_in">echo</span> admin:&gt;&gt;<span class="hljs-string">&quot;_config.yml&quot;</span><br><span class="hljs-built_in">echo</span> deployCommand: <span class="hljs-string">&#x27;hexo-deploy.bat&#x27;</span>&gt;&gt;<span class="hljs-string">&quot;_config.yml&quot;</span><br>hexo server -d<br></code></pre></td></tr></table></figure><p>在浏览器打开localhost:4000&#x2F;admin&#x2F;，即可编辑博文。</p><p>在网页中编辑完，直接左上角Deploy，直接点deploy按钮，就可以完成博客的部署。</p><p>可能遇到的问题(每次都要输入密码)：查看一下你的_config.yml，将文档最后的deploy的repo从http改为git@github类型。</p><p>用hexo-admin插入图片<br>复制图片，粘贴到编辑页面。出现大概这样的东西：<br><img src="/%5Cimages%5Cpasted-2.png%5C" alt="upload successful"></p><p>然后改成：<br><img src="/images/pasted-2.png" alt="upload successful"><br>把你这个图片放到images文件夹内，再改名为pasted-2.png，就出图片了。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
   
 </search>
