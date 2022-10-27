@@ -1,11 +1,12 @@
 body{
   background:#fff;
   background-attachment:fixed;
-  cursor:url(https://jsdelivr.2heng.xin/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur),auto;
+  cursor:url(/assets/normal.cur),auto;
 }
 a{
   background-color:transparent;
   text-decoration:none;
-  cursor:url(https://jsdelivr.2heng.xin/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur),auto
+  cursor:url(/assets/texto.cur),auto;
 }
-a:active, a:hover{outline:none} a:active{cursor:url(https://jsdelivr.2heng.xin/gh/moezx/cdn@3.1.9/img/Sakura/cursor/work.cur),alias}
+a:hover{outline:none}
+a:active{cursor:url(/assets/work.cur),alias}
