@@ -4,6 +4,56 @@
   
   
   <entry>
+    <title>Vacation Plan</title>
+    <link href="/2022/11/29/Vacation-Plan/"/>
+    <url>/2022/11/29/Vacation-Plan/</url>
+    
+    <content type="html"><![CDATA[<h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><p>Java大作业</p><p>算法大作业</p><p>云计算大作业</p><p>金融战略大作业</p><p>素质教育论文</p><p>python大作业</p><p>综合实践</p><h2 id="实习"><a href="#实习" class="headerlink" title="实习"></a>实习</h2><ul><li>八股文：计算机网络、操作系统、数据结构、Java八股</li><li>数据库：MySql、Redis</li><li>算法：力扣200左右</li><li>项目：至少一个相关项目</li><li>简历、实习信息</li></ul><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><p>学点做饭技能</p><p>健身减肥</p><p>打打台球</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>计划</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>计划</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Github action构建</title>
+    <link href="/2022/11/12/Github-action%E6%9E%84%E5%BB%BA/"/>
+    <url>/2022/11/12/Github-action%E6%9E%84%E5%BB%BA/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://andornot.xyz/posts/github-action-deploy-hugo/">使用 GitHub Actions 自动构建部署 Hugo 静态页面 (andornot.xyz)</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>github</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>服务器基本环境配置</title>
     <link href="/2022/11/07/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     <url>/2022/11/07/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
